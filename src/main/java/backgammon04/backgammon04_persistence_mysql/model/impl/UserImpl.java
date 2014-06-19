@@ -18,18 +18,18 @@ public class UserImpl implements User {
 	@Id
 	@GeneratedValue
 	@Column(name = "user_id")
-	public Long id;
+	private Long id;
 
 	@Column(nullable = false)
-	public String username;
+	private String username;
 
 	@Email
 	@Column(nullable = false)
-	public String email;
+	private String email;
 
 	@Length(min = 4)
 	@Column(nullable = false)
-	public String password;
+	private String password;
 
 	public Long getId() {
 		return id;
