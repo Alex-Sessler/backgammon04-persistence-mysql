@@ -16,9 +16,9 @@ import javax.persistence.Table;
 import org.hibernate.annotations.NamedQueries;
 import org.hibernate.annotations.NamedQuery;
 
-import backgammon04.model.Board;
-import backgammon04.model.Checker;
-import backgammon04.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.Board;
+import backgammon04.backgammon04_persistence_interface.model.Checker;
+import backgammon04.backgammon04_persistence_interface.model.Point;
 
 @Entity(name = "point")
 @Table(name = "point")

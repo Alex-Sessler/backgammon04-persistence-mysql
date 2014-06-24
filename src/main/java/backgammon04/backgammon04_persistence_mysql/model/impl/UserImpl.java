@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 
-import backgammon04.model.User;
+import backgammon04.backgammon04_persistence_interface.model.User;
 
 @Entity(name = "user")
 @Table(name = "user")

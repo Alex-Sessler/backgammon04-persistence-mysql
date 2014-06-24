@@ -17,12 +17,12 @@ import javax.persistence.Table;
 import org.hibernate.annotations.NamedQueries;
 import org.hibernate.annotations.NamedQuery;
 
-import backgammon04.model.Checker;
-import backgammon04.model.Dice;
-import backgammon04.model.Game;
-import backgammon04.model.Movement;
-import backgammon04.model.Player;
-import backgammon04.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.Checker;
+import backgammon04.backgammon04_persistence_interface.model.Dice;
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Movement;
+import backgammon04.backgammon04_persistence_interface.model.Player;
+import backgammon04.backgammon04_persistence_interface.model.Point;
 
 @Entity(name = "movement")
 @Table(name = "movement")

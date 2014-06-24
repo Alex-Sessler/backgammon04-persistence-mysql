@@ -7,19 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import backgammon04.backgammon04_persistence_interface.model.Board;
+import backgammon04.backgammon04_persistence_interface.model.Checker;
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.dao.BoardDao;
+import backgammon04.backgammon04_persistence_interface.model.dao.CheckerDao;
+import backgammon04.backgammon04_persistence_interface.model.dao.GameDao;
+import backgammon04.backgammon04_persistence_interface.model.dao.PlayerDao;
+import backgammon04.backgammon04_persistence_interface.model.dao.PointDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.BoardImpl;
 import backgammon04.backgammon04_persistence_mysql.model.impl.CheckerImpl;
 import backgammon04.backgammon04_persistence_mysql.model.impl.GameImpl;
 import backgammon04.backgammon04_persistence_mysql.model.impl.PointImpl;
-import backgammon04.model.Board;
-import backgammon04.model.Checker;
-import backgammon04.model.Game;
-import backgammon04.model.Point;
-import backgammon04.model.dao.BoardDao;
-import backgammon04.model.dao.CheckerDao;
-import backgammon04.model.dao.GameDao;
-import backgammon04.model.dao.PlayerDao;
-import backgammon04.model.dao.PointDao;
 
 @Ignore
 @RunWith(SpringJUnit4ClassRunner.class)

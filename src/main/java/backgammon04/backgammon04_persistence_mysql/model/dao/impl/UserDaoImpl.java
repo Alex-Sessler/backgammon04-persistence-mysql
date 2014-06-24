@@ -4,9 +4,9 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.User;
+import backgammon04.backgammon04_persistence_interface.model.dao.UserDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.UserImpl;
-import backgammon04.model.User;
-import backgammon04.model.dao.UserDao;
 
 @Repository
 @Transactional

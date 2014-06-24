@@ -3,9 +3,9 @@ package backgammon04.backgammon04_persistence_mysql.model.dao.impl;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.Checker;
+import backgammon04.backgammon04_persistence_interface.model.dao.CheckerDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.CheckerImpl;
-import backgammon04.model.Checker;
-import backgammon04.model.dao.CheckerDao;
 
 @Repository
 @Transactional

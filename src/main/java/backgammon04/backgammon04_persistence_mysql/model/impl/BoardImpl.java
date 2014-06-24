@@ -12,9 +12,9 @@ import javax.persistence.OrderBy;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
-import backgammon04.model.Board;
-import backgammon04.model.Game;
-import backgammon04.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.Board;
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Point;
 
 @Entity(name = "board")
 @Table(name = "board")

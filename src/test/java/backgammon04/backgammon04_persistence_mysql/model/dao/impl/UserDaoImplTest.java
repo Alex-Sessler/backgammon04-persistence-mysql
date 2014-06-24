@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import backgammon04.backgammon04_persistence_interface.model.User;
+import backgammon04.backgammon04_persistence_interface.model.dao.UserDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.UserImpl;
-import backgammon04.model.User;
-import backgammon04.model.dao.UserDao;
 
 @Ignore
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -50,7 +50,7 @@ public class UserDaoImplTest {
 		Assert.assertEquals(user.getId(), result.getId());
 		Assert.assertEquals(user.getPassword(), result.getPassword());
 
-		userDao.delete(result);
+		// userDao.delete(result);
 		Assert.assertNull(userDao.getUser(result.getUsername()));
 	}
 

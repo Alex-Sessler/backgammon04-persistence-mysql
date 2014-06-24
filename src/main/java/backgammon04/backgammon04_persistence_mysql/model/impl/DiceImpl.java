@@ -10,8 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import backgammon04.model.Dice;
-import backgammon04.model.Movement;
+import backgammon04.backgammon04_persistence_interface.model.Dice;
+import backgammon04.backgammon04_persistence_interface.model.Movement;
 
 @Entity(name = "dice")
 @Table(name = "dice")

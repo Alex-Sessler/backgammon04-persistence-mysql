@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Movement;
+import backgammon04.backgammon04_persistence_interface.model.Player;
+import backgammon04.backgammon04_persistence_interface.model.dao.MovementDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.MovementImpl;
-import backgammon04.model.Game;
-import backgammon04.model.Movement;
-import backgammon04.model.Player;
-import backgammon04.model.dao.MovementDao;
 
 @Repository
 @Transactional

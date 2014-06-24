@@ -3,9 +3,9 @@ package backgammon04.backgammon04_persistence_mysql.model.dao.impl;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.Dice;
+import backgammon04.backgammon04_persistence_interface.model.dao.DiceDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.DiceImpl;
-import backgammon04.model.Dice;
-import backgammon04.model.dao.DiceDao;
 
 @Repository
 @Transactional

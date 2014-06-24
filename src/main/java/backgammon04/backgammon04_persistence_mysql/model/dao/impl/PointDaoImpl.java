@@ -3,10 +3,10 @@ package backgammon04.backgammon04_persistence_mysql.model.dao.impl;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.Board;
+import backgammon04.backgammon04_persistence_interface.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.dao.PointDao;
 import backgammon04.backgammon04_persistence_mysql.model.impl.PointImpl;
-import backgammon04.model.Board;
-import backgammon04.model.Point;
-import backgammon04.model.dao.PointDao;
 
 @Repository
 @Transactional

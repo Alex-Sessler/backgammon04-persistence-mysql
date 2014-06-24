@@ -9,9 +9,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import backgammon04.model.Checker;
-import backgammon04.model.Player;
-import backgammon04.model.Point;
+import backgammon04.backgammon04_persistence_interface.model.Checker;
+import backgammon04.backgammon04_persistence_interface.model.Player;
+import backgammon04.backgammon04_persistence_interface.model.Point;
 
 @Entity(name = "checker")
 @Table(name = "checker")

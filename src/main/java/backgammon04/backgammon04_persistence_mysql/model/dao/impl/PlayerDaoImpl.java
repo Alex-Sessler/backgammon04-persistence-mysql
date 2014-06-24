@@ -4,12 +4,12 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Player;
+import backgammon04.backgammon04_persistence_interface.model.User;
+import backgammon04.backgammon04_persistence_interface.model.dao.PlayerDao;
+import backgammon04.backgammon04_persistence_interface.util.Color;
 import backgammon04.backgammon04_persistence_mysql.model.impl.PlayerImpl;
-import backgammon04.model.Game;
-import backgammon04.model.Player;
-import backgammon04.model.User;
-import backgammon04.model.dao.PlayerDao;
-import backgammon04.util.Color;
 
 @Repository
 @Transactional

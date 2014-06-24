@@ -14,10 +14,10 @@ import javax.persistence.Table;
 import org.hibernate.annotations.NamedQueries;
 import org.hibernate.annotations.NamedQuery;
 
-import backgammon04.model.Game;
-import backgammon04.model.Player;
-import backgammon04.model.User;
-import backgammon04.util.Color;
+import backgammon04.backgammon04_persistence_interface.model.Game;
+import backgammon04.backgammon04_persistence_interface.model.Player;
+import backgammon04.backgammon04_persistence_interface.model.User;
+import backgammon04.backgammon04_persistence_interface.util.Color;
 
 @Entity(name = "player")
 @Table(name = "player")
